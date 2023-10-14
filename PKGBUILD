@@ -1,7 +1,7 @@
 # Maintainer: Knut Ahlers <knut at ahlers dot me>
 
 pkgname=vault2env
-pkgver=2.2.1
+pkgver=2.2.2
 pkgrel=1
 pkgdesc="Small utility to transfer fields of a key in Vault into the environment"
 arch=('i686' 'x86_64')
@@ -9,7 +9,7 @@ url="https://github.com/Luzifer/$pkgname"
 license=('Apache')
 makedepends=('go')
 source=("${pkgname}-${pkgver}.tar.gz::${url}/archive/v${pkgver}.tar.gz")
-sha512sums=('f9e1e75ed436f2bf48b27726cdb1989963d7d8d220c626922ba642df73c7111469fe9286ee3a2ede6dcf56c70085b70abd0f37358b5b98fd985dfa47b39dabaf')
+sha512sums=('fa63e01336771de168097c056728ed6a7a1b7e1cd8263952b78d530bf0d975690df2e7082e1cb8070bea1577368ce9c0c431af63adf744ed6c2022a7f51dadde')
 
 build() {
 	cd "${srcdir}/${pkgname}-${pkgver}"
